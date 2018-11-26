@@ -1,6 +1,5 @@
 const express = require('express')
 const path = require('path')
-const request = require('./views/request/index')
 const url = require('url');
 const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 5000
